@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: thistle;
+    color: black;
+}
+
+section {
+    padding: 0 25px;
+}
+
+
+.box {
+    border: 2px solid;
+    background-color: white;
+}
+
+#inline * {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+
+/* https://www.w3schools.com/html/html_blocks.asp */
+
+/* While selecting elements, if we use just asterisk (*), then all the elements of the HTML page gets selected irrespective of the parent-child relation. If we use the asterisk (*) while selecting children of a particular parent, so we can select all the children of that parent by:   */
